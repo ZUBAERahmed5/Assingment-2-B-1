@@ -1,0 +1,160 @@
+nav > ul{
+    display: flex;
+    padding-left: 15%;
+    
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+    padding: 30px 50px;
+}
+nav li:hover{
+    background-color: brown;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    padding: 5px;
+}
+.dropdown li{
+    padding: 10 20px;
+    margin: 5px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    margin-top: 21px;
+    background-color: royalblue;
+    padding: 30px;
+    
+}
+.bilu{
+    width: 40%;
+    font-size: 20px;
+    color: rgb(5, 27, 100);
+    padding-right: 50px;
+}
+.voom{
+    margin-top: 100px;
+    margin-right: 20px;
+    padding-left: 10%;
+}
+.mini{
+    font-size: 40px;
+    color:black ;
+    padding-top: 30px;
+}
+#link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(175, 117, 10), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 28px;
+}
+.halum{
+    
+    height: 8px;
+    width: 40%;
+    padding-left: 10%;
+    margin-top: 80px;
+}
+.hutum-container{
+    background-color: slategray;
+}
+.section-tittle{
+    text-align: center;
+    color: red;
+   
+}
+.course{
+    display: grid;
+    grid-template-columns: 6, 1fr ;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 130px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.course-info{
+    display: flex;
+    
+}
+.course-duration{
+    padding-right: 10px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: gold;
+}
+.fa-star.empty{
+    color: rgb(112, 99, 99);
+}
+#button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(122, 107, 77), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 28px;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: rgb(161, 142, 117);
+}
+.alu{
+    padding-top: 40px;
+    padding-left: 600px;
+
+}
+.begun{
+    text-align: center;
+    background-color: #352f2f;
+}
+.fa-google{
+    color: blanchedalmond;
+}
+.instagram-square{
+    color: rgb(28, 28, 204);
+}
+.fa-facebook{
+    color: darkblue;
+}
+.fa-facebook-messenger{
+    color: darkturquoise;
+}
+.fa-youtube{
+    color: rgb(104, 6, 6);
+}
+/* Mobile device */
+@media only screen and (max-width:688px) {
+    .container{
+        background-color: brown;
+        width: 80%;
+    }
+    .hutum-container{
+        width: 80%;
+        background-color: rgb(173, 101, 101);
+    }
+    .begun{
+        width: 80%;
+        background-color: rgb(77, 201, 73);
+    }
+}
